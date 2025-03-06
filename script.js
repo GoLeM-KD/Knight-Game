@@ -81,7 +81,7 @@ function jumpPictures() {
         boy.style.marginTop = marginBoy + "px";
     }
 
-    boy.src = "res/Jump (" + jumpImageNumber + ").png";
+    boy.src = "res/Jump ("+jumpImageNumber+").png";
 }
 
 jumpAnimationCounter = 0;
@@ -299,7 +299,7 @@ function jumpPicturesMobile() {
         boy.style.marginTop = marginBoymobile + "px";
     }
 
-    boy.src = "res/Jump (" + jumpImageNumber + ").png";
+    boy.src = "res/Jump ("+jumpImageNumber+").png";
 }
 
 jumpAnimationCounterMobile= 0;
