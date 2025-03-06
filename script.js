@@ -25,7 +25,7 @@ function runBoyImage() {
     if (runImageNumber == 11) {
         runImageNumber = 1;
     }
-    boy.src = "res/Run (" + runImageNumber + ").png";
+    boy.src = "res/Run ("+runImageNumber+").png";
 }
 
 runAnimationCounter = 0;
