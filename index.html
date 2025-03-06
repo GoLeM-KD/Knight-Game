@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>my Little Game</title>
+</head>
+<body onload="boyBreathing(); createBox();" onkeypress="movements(event)">
+
+    <div class="background" id="bg">
+
+        <h1 class="score" id="scre">0</h1>
+        
+        <img src="res/Idle (1).png" class="boy" id="boy"/>
+
+
+        <button class="start" id="start" onclick="runMobile()">Start</button>
+        <button class="jump" id="jump" onclick="jumpAnimationMobile()">Jump</button>
+
+        
+    </div>
+
+    <div class="end" id="end">
+        <h1>Game Over</h1>
+        <div class="scoreend">
+            <h2>Score :</h2> <p id="endscre">0</p>
+        </div>
+        <button onclick="restart()" id="rst">Restart</button>
+    </div>
+
+
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
